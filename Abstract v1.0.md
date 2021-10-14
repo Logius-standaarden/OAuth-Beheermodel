@@ -1,2 +1,2 @@
 
-Dit document beschrijft het Beheermodel van de API Design Rules (ADR).
+Dit document beschrijft het Beheermodel van het OAuth NL Profiel.

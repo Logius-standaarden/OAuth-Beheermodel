@@ -5,10 +5,10 @@ var respecConfig = {
   specType: "ST",
   
   pubDomain: "api",
-  shortName: "adr-beheer",
-  publishDate: "2021-09-10",
+  shortName: "oauth-beheer",
+  publishDate: "2021-10-14",
 
-  publishVersion: "1.0",
+  publishVersion: "0.1",
   //previousPublishVersion: "", 
 
   addSectionLinks: true,
@@ -36,11 +36,11 @@ var respecConfig = {
   ],
 
   // url van de github repository waar je in werkt
-  github: "https://github.com/Logius-standaarden/ADR-Beheermodel",
+  github: "https://github.com/Logius-standaarden/OAuth-Beheermodel",
   nl_github: {
-    issueBase: "https://github.com/Geonovum/KP-APIs/issues",
-    revision: "https://github.com/Logius-standaarden/ADR-Beheermodel/commits",
-    pullsBase: "https://github.com/Logius-standaarden/ADR-Beheermodel/pulls",
+    issueBase: "https://github.com/Logius-standaarden/OAuth-NL-profiel/issues",
+    revision: "https://github.com/Logius-standaarden/OAuth-Beheermodel/commits",
+    pullsBase: "https://github.com/Logius-standaarden/OAuth-Beheermodel/pulls",
   },
   alternateFormats: [
   {
@@ -60,7 +60,7 @@ var respecConfig = {
   // if not set, the url's will be generated on the respecConfig.github automatically  
   nl_github: {
     //  issueBase: "https://github.com/Logius-standaarden/Digikoppeling-Koppelvlakstandaard-REST-API/issues",
-    revision: "https://github.com/Logius-standaarden/ADR-Beheermodel",
+    revision: "https://github.com/Logius-standaarden/OAuth-Beheermodel",
     //  pullrequests: "https://github.com/Logius-standaarden/Digikoppeling-Koppelvlakstandaard-REST-API/pulls"
   },
 
