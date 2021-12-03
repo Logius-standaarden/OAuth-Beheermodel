@@ -2,13 +2,15 @@
 
 ## Leeswijzer
 
-Dit document beschrijft hoe Logius, afdeling Standaarden (hierna: Logius) de OAuth NL profiel standaard beheert en hoe de bijbehorende governance is ingericht. In dit document wordt verder OAuth-NL gebruikt als afkorting voor de "NL GOV Assurance profile for OAuth 2.0" standaard.
+Dit document beschrijft hoe Logius, afdeling Standaarden (hierna: Logius) de OAuth-NL profiel standaard beheert en hoe de bijbehorende governance is ingericht. In dit document wordt verder OAuth-NL gebruikt als afkorting voor de "NL GOV Assurance profile for OAuth 2.0" standaard.
 
-## De NL GOV Assurance profile for OAuth 2.0 standaard kortweg OAuth-NL
+## De NL GOV Assurance profile for OAuth 2.0 standaard (OAuth-NL)
 
 De OAuth-NL standaard omvat een specifiek profiel voor het OAuth 2.0 profiel en is bedoeld om de beveiliging te verbeteren, grotere interoperabiliteit te waarborgen en bij te dragen aan een gestructureerde toepassing door Nederlandse Overheids organisaties.
 
 De OAuth-NL is gebaseerd op het [International Government Assurance Profile (iGov) for OAuth 2.0 - Draft 03’ (Kortweg: het iGov-profile)](https://openid.net/specs/openid-igov-oauth2-1_0.html) van de "OpenID Foundation".  
+
+Het nut en de werking van de standaard zijn duidelijk berschreven op de website van het Forum standaardisatie en voor de leesbaarheid hieronder over genomen:
 
 ### Nut
 
@@ -24,7 +26,9 @@ De OAuth-NL is gebaseerd op het [International Government Assurance Profile (iGo
 ### Status
 
 De actuele versie van de OAuth-NL is v1.0. Deze versie is op 09-07-2020 door het OBDO vastgesteld op advies van het Forum Standaardisatie.  
-De status van de standaard is ‘Verplicht (pas toe leg uit)’. Dit houdt kort gezegd in dat Nederlandse overheden en instellingen uit de (semi) publieke sector verplicht zijn deze standaard toe te passen op het moment dat zij REST API’s gaan gebruiken voor het ontsluiten van overheidsinformatie en/of functionaliteit naar gebruikers van websites, apps of webapplicaties. Zie voor meer informatie over het [pas toe of leg uit beleid.](https://www.forumstandaardisatie.nl/node/229)
+De status van de standaard is ‘Verplicht (pas toe leg uit)’. Dit houdt kort gezegd in dat Nederlandse overheden en instellingen uit de (semi) publieke sector verplicht zijn deze standaard toe te passen op het moment dat zij REST API’s gaan gebruiken voor het ontsluiten van overheidsinformatie en/of functionaliteit naar gebruikers van websites, apps of webapplicaties. Dit is ook specifiek beschreven in het toepassingsgebied van de standaard:
+
+> NL GOV Assurance Profile for OAuth 2.0 moet worden toegepast bij applicaties waarbij gebruikers of ‘resource owners’ impliciet of expliciet toestemming geven aan een dienst van een derde om namens deze toegang te krijgen tot gegevens via een REST API waarvoor ze recht van toegang hebben. Zie voor meer informatie over het [pas toe of leg uit beleid.](https://www.forumstandaardisatie.nl/node/229)
 
 - De verplichting is gepubliceerd door het Forum Standaardisatie op:  
 <https://www.forumstandaardisatie.nl/open-standaarden/nl-gov-assurance-profile-oauth-20>
@@ -80,7 +84,7 @@ Deze doelstelling wordt onderschreven door een breed scala aan partijen die deel
 Bij het beheer van een open standaard hoort een open governance en een open procedure voor belanghebbenden om te kunnen participeren in het beheer. Logius, neemt hierin de rol van onafhankelijke, duurzame beheerpartij en facilitator. Bij het beheer van de OAuth-NL standaard worden verschillende gremia onderscheiden die gezamenlijk invulling geven aan de governance:  
 
 1. OAuth community (Interesse Groep - IG)  
-Dit is het meest operationele gremium waarin iedere belangstellende/belanghebbende vragen kan stellen over de OAuth-NL standaard en suggesties kan doen voor de doorontwikkeling van de standaard. Dergelijke vragen en suggesties worden door Logius verzameld en voorgelegd aan het Technisch Overleg en als issue geregistreerd in de repositorie van de standaard.  
+Dit is het meest operationele gremium waarin iedere belangstellende/belanghebbende vragen kan stellen over de OAuth-NL standaard en suggesties kan doen voor de doorontwikkeling van de standaard. Dergelijke vragen worden door Logius beantwoord en suggesties worden door Logius verzameld, als issue geregistreerd in de repositorie van de standaard en voorgelegd aan het Technisch Overleg.  
 2. Technisch Overleg (Technische Architectuur Groep – TAG)  
 Het Technisch Overleg is een periodieke bijeenkomst van de Technische Architectuur Groep (TAG) waarbij de vragen en doorontwikkelwensen m.b.t. de OAuth-NL worden doorgenomen, geprioriteerd en worden uitgewerkt. Daarnaast wordt door de leden de releaseplanning en de roadmap opgesteld. Deelname aan de TAG is vrij voor eenieder die een belang heeft bij de standaard (overheid, wetenschap en markt)  
 3. Tactisch overleg OAuth-NL  
@@ -89,15 +93,15 @@ Dit gremium is verantwoordelijk voor het vaststellen van de doorontwikkel-roadma
 Dit is het hoogst ambtelijke gremium dat besluit over major releases van de standaard, het beheermodel van de standaard en externe publicaties over releases en van het standaardenbeleid. Op dit moment wordt het OBDO louter ‘gevoed’ door Forum Standaardisatie en is de focus voornamelijk het bestendigen van major releases van de standaard. Op het moment dat het tactische gremium is ingevuld, zal het OBDO waarschijnlijk een breder scala aan onderwerpen langs krijgen ter bestendiging.  
 
 > *N.B. Het tactisch overleg OAuth-NL gremium is momenteel nog niet actief, waardoor Logius bij wijzigingen aan de standaard, de nieuwe versie voorlegt aan het Forum Standaardisatie, voor het borgen van een zo breed mogelijke afstemming met verschillende belanghebbenden.*  
-> *N.B. De definitieve invulling van de tactische en strategische laag (OBDO) wordt eind 2021 duidelijk.*  
+> *N.B. De definitieve invulling van de tactische en strategische laag (OBDO) wordt in 2022 duidelijk.*  
 
 In tabelvorm:  
 
 |**Gremium**|**Accent**|**Rol participant**|**Ondersteuning door beheerder (Logius)**|
 |---|---|---|---|
-|**Community** <br> (omvang onbeperkt)|Inhoud – delen|Samen met alle leden van de Interesse Groep (IG):  <br>1. Volgen van ontwikkelingen.  <br>2. Leveren van input voor de doorontwikkeling van de standaard.|1. Informatie m.b.t. specificaties en beheer open delen met community.  <br>2. Deelnemen aan  stuurgroep en werkgroepen van Kennisplatform API’s.| 
+|**Community** <br> (omvang onbeperkt)|Inhoud – delen|Samen met alle leden van de Interesse Groep (IG):  <br>1. Volgen van ontwikkelingen.  <br>2. Leveren van suggesties voor de doorontwikkeling van de standaard.|1. Informatie m.b.t. specificaties en beheer open delen met community.  <br>2. Beantwoorden van vragen en verwerken van suggesties.|
 |**Technisch Overleg** <br>(Operationeel, 4x per jaar)|Inhoud - afstemmen| Samen met andere experts van de Technische Architectuur Groep (TAG):  <br>1. Inhoudelijk ontwikkelen van standaard onderdelen en bijbehorende documentatie.  <br>2. Voorbereiden van de release-planning.  <br>3. Prioriteiten stellen voor de ontwikkeling, roadmap van nieuwe releases van de standaarden.  <br>4. Goedkeuring van aanpassingen op de standaard.  |1. Analyseren, ontwerpen en uitwerken van specificaties.  <br>2. Volgen en beïnvloeden van aanpalende standaarden.  <br>3. Organiseren bijeenkomsten.  <br>4. Opstellen en verspreiden notulen. <br>5. Beschikbaar stellen specificaties.|
-|**Tactisch/Strategisch** <br>(4x per jaar)|Prioritering proces en uitwerken strategisch advies|Samen met andere participanten:<br>1. Vaststellen roadmap van de standaard. <br>2. Voorportaal OBDO. <br>3. Vaststellen minor releases van de standaard.|1. Analyseren, ontwerpen en uitwerken van beleidszaken, (release)planning.|  
+|**Tactisch/Strategisch** <br>(4x per jaar)|Prioritering proces en uitwerken strategisch advies|Samen met andere participanten:<br>1. Vaststellen roadmap van de standaard. <br>2. Voorportaal OBDO. <br>3. Vaststellen minor releases van de standaard.|1. Analyseren, ontwerpen en uitwerken van beleidszaken, (release)planning.|
 |**OBDO** <br> (Strategisch besluitvormend, 2x per jaar)|Bestuurlijk besluit|Samen met andere bestuurders: <br>1. Vaststellen major releases van de standaard. <br>2.Vaststellen beheermodel van de standaard. <br>3. Vaststellen externe publicaties over het standaardenbeleid en releases.|1.Begeleiding van de Adviesraad en inbreng via secretariaat OBDO. <br>2. Publiceren standaarden en andere Standaard-informatie.|
 > Figuur 3. Overheidsbreed Beleidsoverleg Digitale Overheid
 
@@ -109,7 +113,7 @@ In alle overleggremia vindt besluitvorming plaats op basis van consensus. Mocht 
 
 Uitbreidingen en aanpassingen in de standaard komen tot stand door participatie van de verschillende belanghebbenden. Belanghebbenden kunnen op vier manieren participeren aan het wijzigings- en besluitvormingsproces:  
 
-1. Als lid van de Community van het Kennisplatform / de Interesse Groep (IG)  
+1. Als lid van de Interesse Groep (IG)  
 2. Als lid van de Technische Architectuur Groep (TAG)  
 3. Als lid van het Tactisch overleg  
 4. Als lid van het OBDO
@@ -133,7 +137,7 @@ Het beheer van de standaard wordt gefinancierd door min. BZK voor een initiële 
 
 ## Community
 
-De community / Interesse Groep bestaat uit eenieder die belanghebbende of belangstellende is m.b.t. de standaard. Deelname aan de community kent geen drempels of restricties. Leden van de community kunnen alle informatie m.b.t. de standaard en het beheer daarvan inzien via de website en via verschillende kanalen issues of RFC&#39;s melden. Daarnaast kunnen community leden reageren op openbare consultaties en onder bepaalde voorwaarden deelnemen aan de Technische Architectuur Groep (zie 2.2.3).
+De community / Interesse Groep bestaat uit eenieder die belanghebbende of belangstellende is m.b.t. de standaard. Deelname aan de community kent geen drempels of restricties. Leden van de community kunnen alle informatie m.b.t. de standaard en het beheer daarvan inzien via de website en via verschillende kanalen issues of RFC&#39;s melden. Daarnaast kunnen community leden reageren op openbare consultaties en onder bepaalde voorwaarden deelnemen aan de Technische Architectuur Groep (zie paragraaf [deelname](#Deelname)).
 
 ## Architectuur
 
@@ -192,7 +196,7 @@ Uitgesloten van alle bovenstaande zijn rechten verbonden aan de standaarden, pro
 
 ## Kwaliteitsbeleid en benchmarking  
 
-Zoals gezegd wordt het beheer van de OAuth-NL standaard volledig open ingevuld (zie ook 1.3 en 2.2.) Dit borgt dat zoveel mogelijk belangstellenden en belanghebbenden betrokken zijn bij wijzigingen en besluitvorming die wijzigingen.
+Zoals gezegd wordt het beheer van de OAuth-NL standaard volledig open ingevuld (zie ook de paragraaf [Bomos](#Bomos) en [Governance](#Governance)) Dit borgt dat zoveel mogelijk belangstellenden en belanghebbenden betrokken zijn bij wijzigingen en besluitvorming die wijzigingen.
 
 ## Adoptie en erkenning  
 
@@ -210,7 +214,7 @@ De OAuth-NL standaard heeft de &#39;pas toe of leg uit&#39; -status van Forum St
 RFC&#39;s kunnen binnen komen via verschillende kanalen:
 
 1. Rechtstreeks bij Logius, tijdens overleggen, via de website of mail
-2. Bij de werkgroep Security van het Kennisplatform API&#39;s, tijdens overleggen, via de website of mail
+2. Bij de werkgroepen, tijdens overleggen, via de website of mail
 
 RFC&#39;s worden als issue&#39;s geregistreerd in de repository van de OAuth-NL standaard op Github. [https://github.com/Geonovum/KP-APIs/issues](https://github.com/Geonovum/KP-APIs/issues) of direct in de repository van de OAuth-NL standaard op Github [https://github.com/Logius-standaarden/OAuth-NL-profiel/issues](https://github.com/Logius-standaarden/OAuth-NL-profiel/issues)
 
@@ -227,8 +231,7 @@ De procedure van RCF naar daadwerkelijke wijziging ziet er als volgt uit:
 - RFC worden na vaststelling in het TO Openbaar geconsulteerd
 - Na vaststelling volgt publicatie van de nieuwe versie van standaard
 
-> N.B. Zolang het Centrum voor Standaarden nog geen predicaat &quot;Uitstekend beheer&quot; heeft ontvangen van Forum Standaardisatie, zullen nieuwe versies na vaststelling in het TO aan Forum Standaardisatie worden voorgelegd ter beoordeling.  
-> N.B.2. Het technisch overleg is momenteel samengevoegd met het structurele overleg van de werkgroep security van het Kennisplatform (zie 2.2.3)
+> N.B. Zolang het Logius afdeling standaarden nog geen predicaat &quot;Uitstekend beheer&quot; heeft ontvangen van Forum Standaardisatie, zullen nieuwe versies na vaststelling in het TO aan Forum Standaardisatie worden voorgelegd ter beoordeling.  
 
 Dit is schematisch weergegeven in het onderstaande governance model:  
 
@@ -237,7 +240,7 @@ Dit is schematisch weergegeven in het onderstaande governance model:
 
 ## Status van de standaard
 
-Logius, Centrum voor standaarden onderscheid vier statussen die de OAuth-NL standaard kan hebben:
+Logius, afdeling standaarden onderscheid vier statussen die de OAuth-NL standaard kan hebben:
 
 | **Afkorting**|**Status van de standaard**|**Beschrijving van de status** |
 | --- | --- | --- |
@@ -264,7 +267,7 @@ De laatste versie van de OAuth-NL is gepubliceerd op:<br>
 [https://publicatie.centrumvoorstandaarden.nl/api/oauth/](https://publicatie.centrumvoorstandaarden.nl/api/oauth/)
 
 De laatste concept versie van de standard is gepubliceerd op:<br>
-[https://logius-standaarden.github.io/API-Design-Rules/](https://logius-standaarden.github.io/API-Design-Rules/)
+[https://logius-standaarden.github.io/OAuth-NL-profiel/](https://logius-standaarden.github.io/OAuth-NL-profiel/)
 
 Het beheermodel is gepubliceerd op:<br>
 [Logius-standaarden/OAuth-Beheermodel (github.com)](https://github.com/Logius-standaarden/OAuth-Beheermodel)
@@ -276,14 +279,14 @@ De vergaderstukken zijn gepubliceerd op:<br>
 
 ## Opleiding en advies
 
-Logius biedt momenteel geen opleiding aan, maar borgt dat de informatie m.b.t. de standaard altijd, zonder drempels, toegankelijk is. Bovendien kunnen geïnteresseerden via verschillende kanalen contact opnemen met Logius in geval van vragen of opmerkingen. Zie hiervoor 5.2 Helpdesk.  
+Logius biedt momenteel geen opleiding aan, maar borgt dat de informatie m.b.t. de standaard altijd, zonder drempels, toegankelijk is. Bovendien kunnen geïnteresseerden via verschillende kanalen contact opnemen met Logius in geval van vragen of opmerkingen. Zie hiervoor de paragraaf [helpdesk](#Helpdesk).  
 Aanvullend organiseert Kennisplatform API&#39;s regelmatig overleggen en seminars m.b.t. de Nederlandse API Strategie waar de OAuth-NL standaard een onderdeel van is. Zie hiervoor [www.apigov.nl](http://www.apigov.nl/).
 
 ## Helpdesk
 
 Logius biedt ondersteuning en advies via verschillende kanalen:
-- Online: als reactie op issue&#39;s in de Github van het Kennisplatform:<br>
-[Issues · Geonovum/KP-APIs (github.com)](https://github.com/Geonovum/KP-APIs/issues)
+- Online: als reactie op issue&#39;s in de Github van de standaard:<br>
+[Issues · Logius-standaarden/OAuth-NL-profiel (github.com)](https://github.com/Logius-standaarden/OAuth-NL-profiel/issues)
 - Per mail: [api@logius.nl](mailto:api@logius.nl)
 - Telefonisch: 0900 - 555 45 55
 - Per post: Logius, Postbus 96810; 2509 JE Den Haag, (t.a.v. CvS).
@@ -309,7 +312,7 @@ Tot slot is Logius promotor van de standaard. Zowel intern voor de toepassing va
 
 Als een nieuwe versie van de OAuth-NL standaard de status "In Gebruik" heeft, worden verschillende zaken gepubliceerd.  
 Logius publiceert altijd de volledige specificatie van de standaard op een deel van zijn website. Daarnaast wordt een persbericht uitgegeven, waarin de publicatie van de nieuwe release van de standaard wordt aangekondigd.  
-Aanvullend publiceert Logius alle genoemde documentatie zoals genoemd bij 4.5.
+Aanvullend publiceert Logius alle genoemde documentatie zoals genoemd in de paragraaf [documentatie](#Documentatie).
 
 ## Klachtenafhandeling
 
