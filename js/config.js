@@ -1,12 +1,12 @@
 var respecConfig = {
   //voor specStatus mogelijkheden zie https://github.com/Logius-standaarden/respec/wiki/specStatus
-  specStatus: "DEF",
+  specStatus: "CV",
   //voor specType mogelijkheden zie https://github.com/Logius-standaarden/respec/wiki/specType
-  specType: "ST",
+  specType: "BD",
   
   pubDomain: "api",
   shortName: "oauth-beheer",
-  publishDate: "2021-10-14",
+  publishDate: "2021-12-03",
 
   publishVersion: "0.1",
   //previousPublishVersion: "", 
