@@ -43,19 +43,19 @@ De status van de standaard is ‘Verplicht (pas toe leg uit)’. Dit houdt kort 
 
 Logius richt de beheerorganisatie in conform het Beheer en OntwikkelModel voor Open Standaarden (BOMOS). Ook het beheer van de OAuth-NL standaard is op basis van BOMOS ingericht. Voor de beheerorganisatie heeft Logius een generiek beheermodel opgezet, waar het beheerplan van de OAuth-NL standaard is afgeleid.  
 
-![Bomos model](media/Bomos_model.png "Bomos model")
+![Bomos model](media/Bomos_model.svg "Bomos model")
 > Figuur 1. Bomos model
 
 Voor meer informatie over BOMOS zie ook [de beslisboom van het forumstandaardisatie](https://beslisboom.forumstandaardisatie.nl/thema/ontwikkelen-en-beheren-van-open-standaarden).  
 BOMOS onderscheidt verschillende levenscyclusfases waarin een standaard zich kan bevinden. Deze fase bepaalt mede op welke beheeronderdelen meer of minder wordt ingezet. De verschillende fases zijn:  
 
 1.	Creatie/ontwikkeling
-2.	Introductie
+2.	Introductiefase
 3.	Implementatie/groei
 4.	Volwaardige toepassing
 5.	Uitfaseren
 
-![Bomos_levenscyclus](media/Bomos_levenscyclus.png "Bomos levenscyclus")
+![Bomos_levenscyclus](media/Bomos_levenscyclus.svg "Bomos levenscyclus")
 > Figuur 2. Bomos levenscyclus
 
 De OAuth-NL standaard bevindt zich in de implementatie/groei fase. De eerste versie van de standaard is 16-03-2016 aangemeld bij het Forum Standaardisatie en op 09-07-2020 op de lijst van verplichte standaarden opgenomen. Vanuit verschillende overheden is samengewerkt aan de standaard en de verwachting is dat de deze standaard nog slechts beperkt ontwikkeling door gaat maken. Het gebruik en de toepassing van de OAuth-NL standaard groeit nog en is nog geen comodity bij alle overheden, hierdoor is van een volwaardige toepassing bij de beoogde doelgroep nog geen sprake.  
@@ -218,7 +218,7 @@ RFC&#39;s kunnen binnen komen via verschillende kanalen:
 
 RFC&#39;s worden als issue&#39;s geregistreerd in de repository van de OAuth-NL standaard op Github. [https://github.com/Geonovum/KP-APIs/issues](https://github.com/Geonovum/KP-APIs/issues) of direct in de repository van de OAuth-NL standaard op Github [https://github.com/Logius-standaarden/OAuth-NL-profiel/issues](https://github.com/Logius-standaarden/OAuth-NL-profiel/issues)
 
-![OAuth-NL RFC Procesmodel](media/OAuth-NL_Governance-RFC_Process.png "OAuth-NL RFC Procesmodel")
+![OAuth-NL RFC Procesmodel](media/OAuth-NL_Governance-RFC_Process.svg "OAuth-NL RFC Procesmodel")
 > Figuur 5. OAuth-NL RFC Procesmodel
 
 ## Uitvoering en ontwikkeling (Wijzigingsproces)
@@ -235,7 +235,7 @@ De procedure van RCF naar daadwerkelijke wijziging ziet er als volgt uit:
 
 Dit is schematisch weergegeven in het onderstaande governance model:  
 
-![OAuth-NL Governance model](media/OAuth-NL_Governance_model.png "OAuth-NL Governance model")
+![OAuth-NL Governance model](media/OAuth-NL_Governance_model.svg "OAuth-NL Governance model")
 > Figuur 6. OAuth-NL Governance model
 
 ## Status van de standaard
