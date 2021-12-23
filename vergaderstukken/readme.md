@@ -1,1 +1,0 @@
-Deze folder bevat de vergaderstukken van de Technische Overleggen van de Technische Architectuur Groep (TAG).
