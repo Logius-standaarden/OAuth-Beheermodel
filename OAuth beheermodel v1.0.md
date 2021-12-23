@@ -43,7 +43,7 @@ De status van de standaard is ‘Verplicht (pas toe leg uit)’. Dit houdt kort 
 
 Logius richt de beheerorganisatie in conform het Beheer en OntwikkelModel voor Open Standaarden (BOMOS). Ook het beheer van de OAuth-NL standaard is op basis van BOMOS ingericht. Voor de beheerorganisatie heeft Logius een generiek beheermodel opgezet, waar het beheerplan van de OAuth-NL standaard is afgeleid.  
 
-![Bomos model](media/Bomos_model.svg "Bomos model")
+![Bomos model](media/Bomos_model_v2.svg "Bomos model")
 > Figuur 1. Bomos model
 
 Voor meer informatie over BOMOS zie ook [de beslisboom van het forumstandaardisatie](https://beslisboom.forumstandaardisatie.nl/thema/ontwikkelen-en-beheren-van-open-standaarden).  
@@ -55,7 +55,7 @@ BOMOS onderscheidt verschillende levenscyclusfases waarin een standaard zich kan
 4.	Volwaardige toepassing
 5.	Uitfaseren
 
-![Bomos_levenscyclus](media/Bomos_levenscyclus.svg "Bomos levenscyclus")
+![Bomos_levenscyclus](media/Bomos_levenscyclus_v2.svg "Bomos levenscyclus")
 > Figuur 2. Bomos levenscyclus
 
 De OAuth-NL standaard bevindt zich in de implementatie/groei fase. De eerste versie van de standaard is 16-03-2016 aangemeld bij het Forum Standaardisatie en op 09-07-2020 op de lijst van verplichte standaarden opgenomen. Vanuit verschillende overheden is samengewerkt aan de standaard en de verwachting is dat de deze standaard nog slechts beperkt ontwikkeling door gaat maken. Het gebruik en de toepassing van de OAuth-NL standaard groeit nog en is nog geen comodity bij alle overheden, hierdoor is van een volwaardige toepassing bij de beoogde doelgroep nog geen sprake.  
