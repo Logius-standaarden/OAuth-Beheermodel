@@ -1,6 +1,6 @@
-This folder holds concept information and documents related to the OAuth NL Profile Standard.  
+# Deze folder bevat information en documentatie gerelateerd aan de OAuthNL  Standaard.  
 
-> :WARNING: This Repo is a copy and still being developed  
+## De OAuth-NL standaard:
 
 Bekijk hier de **laatste vastgestelde versie** van de standaard:
 
@@ -10,6 +10,14 @@ Bekijk hier **de laatste werkversie** van de standaard:
 
 <https://Logius-standaarden.github.io/OAuth-NL-profiel>
 
-**Deze repositorie**:
+## Deze repository (het OAuth-NL beheermodel):
 
 <https://github.com/Logius-standaarden/OAuth-Beheermodel>
+
+Bekijk hier **de laatste werkversie** van het beheermodel:
+
+https://logius-standaarden.github.io/OAuth-Beheermodel/
+
+## De OAuth-NL vergaderstukken:
+
+https://github.com/Logius-standaarden/OAuth-NL_Vergaderstukken
