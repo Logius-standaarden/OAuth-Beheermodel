@@ -1,3 +1,5 @@
+![build](https://github.com/Logius-standaarden/OAuth-Beheermodel/actions/workflows/build.yml/badge.svg)
+
 # Deze folder bevat information en documentatie gerelateerd aan de OAuthNL  Standaard.  
 
 ## De OAuth-NL standaard:
