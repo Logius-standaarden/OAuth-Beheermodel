@@ -31,14 +31,14 @@ De status van de standaard is ‘Verplicht (pas toe leg uit)’. Dit houdt kort 
 > NL GOV Assurance Profile for OAuth 2.0 moet worden toegepast bij applicaties waarbij gebruikers of ‘resource owners’ impliciet of expliciet toestemming geven aan een dienst van een derde om namens deze toegang te krijgen tot gegevens via een REST API waarvoor ze recht van toegang hebben. Zie voor meer informatie over het [pas toe of leg uit beleid.](https://www.forumstandaardisatie.nl/node/229)
 
 - De verplichting is gepubliceerd door het Forum Standaardisatie op:  
-[forumstandaardisatie.nl/open-standaarden/nl-gov-assurance-profile-oauth-20](<https://forumstandaardisatie.nl/open-standaarden/nl-gov-assurance-profile-oauth-20)
+  - [forumstandaardisatie.nl/open-standaarden/nl-gov-assurance-profile-oauth-20](https://forumstandaardisatie.nl/open-standaarden/nl-gov-assurance-profile-oauth-20)
 - Versie 1.0 van de OAuth-NL standaard is gepubliceerd op:  
-[publicatie.centrumvoorstandaarden.nl/api/oauth/v1.0](<https://publicatie.centrumvoorstandaarden.nl/api/oauth/v1.0)
+  - [publicatie.centrumvoorstandaarden.nl/api/oauth/v1.0](https://publicatie.centrumvoorstandaarden.nl/api/oauth/v1.0)
 - De laatste versie van de OAuth-NL is gepubliceerd op:  
-[publicatie.centrumvoorstandaarden.nl/api/oauth/](<https://publicatie.centrumvoorstandaarden.nl/api/oauth/)
+  - [publicatie.centrumvoorstandaarden.nl/api/oauth/](https://publicatie.centrumvoorstandaarden.nl/api/oauth/)
 - De laatste concept versie van de OAuth-NL standaard is gepubliceerd op:  
-[logius-standaarden.github.io/OAuth-NL-profiel/](https://logius-standaarden.github.io/OAuth-NL-profiel/)
-
+  - [logius-standaarden.github.io/OAuth-NL-profiel/](https://logius-standaarden.github.io/OAuth-NL-profiel/)
+ 
 ## Bomos
 
 Logius richt de beheerorganisatie in conform het Beheer en OntwikkelModel voor Open Standaarden (BOMOS). Ook het beheer van de OAuth-NL standaard is op basis van BOMOS ingericht. Voor de beheerorganisatie heeft Logius een generiek beheermodel opgezet, waar het beheerplan van de OAuth-NL standaard is afgeleid.  
@@ -49,11 +49,11 @@ Logius richt de beheerorganisatie in conform het Beheer en OntwikkelModel voor O
 Voor meer informatie over BOMOS zie ook de ['Publicatie-BOMOS-2i.pdf'](https://www.forumstandaardisatie.nl/sites/default/files/BFS/4-basisinformatie/publicaties/Publicatie-BOMOS-2i.pdf) van het Forum standaardisatie.  
 BOMOS onderscheidt verschillende levenscyclusfases waarin een standaard zich kan bevinden. Deze fase bepaalt mede op welke beheeronderdelen meer of minder wordt ingezet. De verschillende fases zijn:  
 
-1.	Creatie/ontwikkeling
-2.	Introductiefase
-3.	Implementatie/groei
-4.	Volwaardige toepassing
-5.	Uitfaseren
+1.Creatie/ontwikkeling
+2.Introductiefase
+3.Implementatie/groei
+4.Volwaardige toepassing
+5.Uitfaseren
 
 ![Bomos_levenscyclus](media/Bomos_levenscyclus_v2.svg "Bomos levenscyclus")
 > Figuur 2. Bomos levenscyclus
@@ -62,9 +62,9 @@ De OAuth-NL standaard bevindt zich in de implementatie/groei fase. De eerste ver
 
 Dit heeft gevolgen voor het beheer van de standaard. Naast de groei in de aantallen toepassingen van de standaard is ook relevant dat eerst nog minor en major wijzigingen in de standaard op een correcte manier worden doorgevoerd en er veel informatie beschikbaar is die gebruikers helpt bij de implementatie van de standaard. Daarom is er komende tijd vooral aandacht voor:
 
--	Het in de praktijk bestendigen van het beheer van de standaard;  
--	Doorontwikkeling van de standaard;  
--	Groei in het aantal toepassingen van de standaard;  
--	Monitoring van het gebruik van de standaard;  
--	Groei van de community rond de standaard.  
+- Het in de praktijk bestendigen van het beheer van de standaard;  
+- Doorontwikkeling van de standaard;  
+- Groei in het aantal toepassingen van de standaard;  
+- Monitoring van het gebruik van de standaard;  
+- Groei van de community rond de standaard.  
 
