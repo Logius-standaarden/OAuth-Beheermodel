@@ -1,14 +1,14 @@
 var respecConfig = {
   //voor specStatus mogelijkheden zie https://github.com/Logius-standaarden/respec/wiki/specStatus
-  specStatus: "CV",
+  specStatus: "DEF",
   //voor specType mogelijkheden zie https://github.com/Logius-standaarden/respec/wiki/specType
-  specType: "BD",
+  specType: "ST",
   
   pubDomain: "api",
   shortName: "oauth-beheer",
   publishDate: "2021-12-03",
 
-  publishVersion: "0.1",
+  publishVersion: "1.0",
   //previousPublishVersion: "", 
 
   addSectionLinks: true,
@@ -45,7 +45,7 @@ var respecConfig = {
   alternateFormats: [
   {
     label: "pdf",
-    uri: ".pdf",
+    uri: "OAuth-Beheermodel.pdf",
   }],
   // this parameter will add the tag_name of the latest release to the document Title
   // only set this parameter when a release has been set
