@@ -31,13 +31,13 @@ De status van de standaard is ‘Verplicht (pas toe leg uit)’. Dit houdt kort 
 > NL GOV Assurance Profile for OAuth 2.0 moet worden toegepast bij applicaties waarbij gebruikers of ‘resource owners’ impliciet of expliciet toestemming geven aan een dienst van een derde om namens deze toegang te krijgen tot gegevens via een REST API waarvoor ze recht van toegang hebben. Zie voor meer informatie over het [pas toe of leg uit beleid.](https://www.forumstandaardisatie.nl/node/229)
 
 - De verplichting is gepubliceerd door het Forum Standaardisatie op:  
-<https://www.forumstandaardisatie.nl/open-standaarden/nl-gov-assurance-profile-oauth-20>
+[forumstandaardisatie.nl/open-standaarden/nl-gov-assurance-profile-oauth-20](<https://forumstandaardisatie.nl/open-standaarden/nl-gov-assurance-profile-oauth-20)
 - Versie 1.0 van de OAuth-NL standaard is gepubliceerd op:  
-<https://publicatie.centrumvoorstandaarden.nl/api/oauth/v1.0>
+[publicatie.centrumvoorstandaarden.nl/api/oauth/v1.0](<https://publicatie.centrumvoorstandaarden.nl/api/oauth/v1.0)
 - De laatste versie van de OAuth-NL is gepubliceerd op:  
-<https://publicatie.centrumvoorstandaarden.nl/api/oauth/>
+[publicatie.centrumvoorstandaarden.nl/api/oauth/](<https://publicatie.centrumvoorstandaarden.nl/api/oauth/)
 - De laatste concept versie van de OAuth-NL standaard is gepubliceerd op:  
-<https://logius-standaarden.github.io/OAuth-NL-profiel/>
+[logius-standaarden.github.io/OAuth-NL-profiel/](https://logius-standaarden.github.io/OAuth-NL-profiel/)
 
 ## Bomos
 
@@ -46,7 +46,7 @@ Logius richt de beheerorganisatie in conform het Beheer en OntwikkelModel voor O
 ![Bomos model](media/Bomos_model_v2.svg "Bomos model")
 > Figuur 1. Bomos model
 
-Voor meer informatie over BOMOS zie ook [de beslisboom van het forumstandaardisatie](https://beslisboom.forumstandaardisatie.nl/thema/ontwikkelen-en-beheren-van-open-standaarden).  
+Voor meer informatie over BOMOS zie ook de ['Publicatie-BOMOS-2i.pdf'](https://www.forumstandaardisatie.nl/sites/default/files/BFS/4-basisinformatie/publicaties/Publicatie-BOMOS-2i.pdf) van het Forum standaardisatie.  
 BOMOS onderscheidt verschillende levenscyclusfases waarin een standaard zich kan bevinden. Deze fase bepaalt mede op welke beheeronderdelen meer of minder wordt ingezet. De verschillende fases zijn:  
 
 1.	Creatie/ontwikkeling
@@ -137,7 +137,7 @@ Het beheer van de standaard wordt gefinancierd door min. BZK voor een initiële 
 
 ## Community
 
-De community / Interesse Groep bestaat uit eenieder die belanghebbende of belangstellende is m.b.t. de standaard. Deelname aan de community kent geen drempels of restricties. Leden van de community kunnen alle informatie m.b.t. de standaard en het beheer daarvan inzien via de website en via verschillende kanalen issues of RFC&#39;s melden. Daarnaast kunnen community leden reageren op openbare consultaties en onder bepaalde voorwaarden deelnemen aan de Technische Architectuur Groep (zie paragraaf [deelname](#Deelname)).
+De community / Interesse Groep bestaat uit eenieder die belanghebbende of belangstellende is m.b.t. de standaard. Deelname aan de community kent geen drempels of restricties. Leden van de community kunnen alle informatie m.b.t. de standaard en het beheer daarvan inzien via de website en via verschillende kanalen issues of RFC&#39;s melden. Daarnaast kunnen community leden reageren op openbare consultaties en onder bepaalde voorwaarden deelnemen aan de Technische Architectuur Groep (zie paragraaf [deelname](#deelname)).
 
 ## Architectuur
 
@@ -196,7 +196,7 @@ Uitgesloten van alle bovenstaande zijn rechten verbonden aan de standaarden, pro
 
 ## Kwaliteitsbeleid en benchmarking  
 
-Zoals gezegd wordt het beheer van de OAuth-NL standaard volledig open ingevuld (zie ook de paragraaf [Bomos](#Bomos) en [Governance](#Governance)) Dit borgt dat zoveel mogelijk belangstellenden en belanghebbenden betrokken zijn bij wijzigingen en besluitvorming die wijzigingen.
+Zoals gezegd wordt het beheer van de OAuth-NL standaard volledig open ingevuld (zie ook de paragraaf [Bomos](#bomos) en [Governance](#governance)) Dit borgt dat zoveel mogelijk belangstellenden en belanghebbenden betrokken zijn bij wijzigingen en besluitvorming die wijzigingen.
 
 ## Adoptie en erkenning  
 
@@ -273,13 +273,13 @@ Het beheermodel is gepubliceerd op:<br>
 [Logius-standaarden/OAuth-Beheermodel (github.com)](https://github.com/Logius-standaarden/OAuth-Beheermodel)
 
 De vergaderstukken zijn gepubliceerd op:<br>
-[Logius-standaarden/OAuth-Beheermodel/vergaderstukken (github.com)](https://github.com/Logius-standaarden/OAuth-Beheermodel/tree/main/vergaderstukken)
+[Logius-standaarden/OAuth-NL_Vergaderstukken (github.com)](https://github.com/Logius-standaarden/OAuth-NL_Vergaderstukken)
 
 # Implementatieondersteuning
 
 ## Opleiding en advies
 
-Logius biedt momenteel geen opleiding aan, maar borgt dat de informatie m.b.t. de standaard altijd, zonder drempels, toegankelijk is. Bovendien kunnen geïnteresseerden via verschillende kanalen contact opnemen met Logius in geval van vragen of opmerkingen. Zie hiervoor de paragraaf [helpdesk](#Helpdesk).  
+Logius biedt momenteel geen opleiding aan, maar borgt dat de informatie m.b.t. de standaard altijd, zonder drempels, toegankelijk is. Bovendien kunnen geïnteresseerden via verschillende kanalen contact opnemen met Logius in geval van vragen of opmerkingen. Zie hiervoor de paragraaf [helpdesk](#helpdesk).  
 Aanvullend organiseert Kennisplatform API&#39;s regelmatig overleggen en seminars m.b.t. de Nederlandse API Strategie waar de OAuth-NL standaard een onderdeel van is. Zie hiervoor [www.apigov.nl](http://www.apigov.nl/).
 
 ## Helpdesk
@@ -312,7 +312,7 @@ Tot slot is Logius promotor van de standaard. Zowel intern voor de toepassing va
 
 Als een nieuwe versie van de OAuth-NL standaard de status "In Gebruik" heeft, worden verschillende zaken gepubliceerd.  
 Logius publiceert altijd de volledige specificatie van de standaard op een deel van zijn website. Daarnaast wordt een persbericht uitgegeven, waarin de publicatie van de nieuwe release van de standaard wordt aangekondigd.  
-Aanvullend publiceert Logius alle genoemde documentatie zoals genoemd in de paragraaf [documentatie](#Documentatie).
+Aanvullend publiceert Logius alle genoemde documentatie zoals genoemd in de paragraaf [documentatie](#documentatie).
 
 ## Klachtenafhandeling
 
