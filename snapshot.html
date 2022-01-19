@@ -26,7 +26,7 @@ dfn{cursor:pointer}
   
   
   
-<title>Beheermodel OAuth-NL</title>
+<title>Beheermodel OAuth-NL 1.0</title>
   
   
 <link rel="stylesheet" type="text/css" href="./media/style.css">
@@ -115,12 +115,12 @@ var[data-type]::after{content:attr(data-type);transform:translateX(-50%) transla
 var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 </style>
 <script id="initialUserConfig" type="application/json">{
-  "specStatus": "CV",
-  "specType": "BD",
+  "specStatus": "DEF",
+  "specType": "ST",
   "pubDomain": "api",
   "shortName": "oauth-beheer",
   "publishDate": "2021-12-03",
-  "publishVersion": "0.1",
+  "publishVersion": "1.0",
   "addSectionLinks": true,
   "license": "cc-by-nd",
   "doJsonLd": true,
@@ -148,7 +148,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
   "alternateFormats": [
     {
       "label": "pdf",
-      "uri": ".pdf"
+      "uri": "OAuth-Beheermodel.pdf"
     }
   ],
   "nl_addReleaseTagTitle": true,
@@ -255,24 +255,24 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     }
   },
   "publishISODate": "2021-12-03T00:00:00.000Z",
-  "generatedSubtitle": "Consultatieversie 03 december 2021"
+  "generatedSubtitle": "Vastgestelde versie 03 december 2021"
 }</script>
-<link rel="stylesheet" href="https://publicatie.centrumvoorstandaarden.nl/respec/style/LS-CV.css"></head>
+<link rel="stylesheet" href="https://publicatie.centrumvoorstandaarden.nl/respec/style/LS-DEF.css"></head>
 
 
 <body class="h-entry informative toc-inline"><div class="head">
     <a class="logo" href="https://www.logius.nl/standaarden"><img alt="Logius" height="77" id="Logius" src="https://publicatie.centrumvoorstandaarden.nl/respec/style/logos/figure-logius.svg" width="44">
-  </a> <h1 id="title" class="title">Beheermodel OAuth-NL</h1>
+  </a> <h1 id="title" class="title">Beheermodel OAuth-NL 1.0</h1>
     
     <h2>
-      Logius Beheerdocumentatie<br>
-      Consultatieversie
+      Logius Standaard<br>
+      Vastgestelde versie
       <time class="dt-published" datetime="2021-12-03">03 december 2021</time>
     </h2>
 	<a lang="nl" href="https://publicatie.centrumvoorstandaarden.nl/">Overzicht standaarden</a>
     <dl>
       <dt>Deze versie:</dt><dd class="status">
-              <a class="u-url status" href="https://logius-standaarden.github.io/OAuth-Beheermodel/">https://logius-standaarden.github.io/OAuth-Beheermodel/</a>
+              <a class="u-url status" href="https://publicatie.centrumvoorstandaarden.nl/api/oauth-beheer/1.0">https://publicatie.centrumvoorstandaarden.nl/api/oauth-beheer/1.0</a>
             </dd><dt>Laatst gepubliceerde versie:</dt><dd>
               <a href="https://publicatie.centrumvoorstandaarden.nl/api/oauth-beheer/">https://publicatie.centrumvoorstandaarden.nl/api/oauth-beheer/</a>
             </dd>
@@ -306,7 +306,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     
     <p lang="en">
           This document is also available in this non-normative format:
-          <a rel="alternate" href=".pdf">pdf</a>
+          <a rel="alternate" href="OAuth-Beheermodel.pdf">pdf</a>
         </p>
     <p class="copyright" lang="en">
           This document is licensed under a
@@ -315,7 +315,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <hr title="Separator for header">
   </div>
   <section id="abstract" data-format="markdown" class="introductory"><h2 id="samenvatting">Samenvatting<a class="self-link" href="#abstract" aria-label="Permalink for Section"></a></h2><p>Dit document beschrijft het Beheermodel van het OAuth NL Profiel.</p></section>
-  <section id="sotd" class="introductory"><h2 id="status-van-dit-document">Status van dit document<a class="self-link" href="#sotd" aria-label="Permalink for Section"></a></h2>Dit is een door het Technisch Overleg goedgekeurde consultatieversie. Commentaar over dit document kan gestuurd worden naar <a href="mailto:api@logius.nl">api@logius.nl</a>.<p></p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Samenvatting</a></li><li class="tocline"><a class="tocxref" href="#sotd">Status van dit document</a></li><li class="tocline"><a class="tocxref" href="#inleiding"><bdi class="secno">1. </bdi>Inleiding</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#leeswijzer"><bdi class="secno">1.1 </bdi>Leeswijzer</a></li><li class="tocline"><a class="tocxref" href="#de-nl-gov-assurance-profile-for-oauth-2-0-standaard-oauth-nl"><bdi class="secno">1.2 </bdi>De NL GOV Assurance profile for OAuth 2.0 standaard (OAuth-NL)</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#nut"><bdi class="secno">1.2.1 </bdi>Nut</a></li><li class="tocline"><a class="tocxref" href="#werking"><bdi class="secno">1.2.2 </bdi>Werking</a></li><li class="tocline"><a class="tocxref" href="#status"><bdi class="secno">1.2.3 </bdi>Status</a></li></ol></li><li class="tocline"><a class="tocxref" href="#bomos"><bdi class="secno">1.3 </bdi>Bomos</a></li></ol></li><li class="tocline"><a class="tocxref" href="#strategie"><bdi class="secno">2. </bdi>Strategie</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#visie"><bdi class="secno">2.1 </bdi>Visie</a></li><li class="tocline"><a class="tocxref" href="#governance"><bdi class="secno">2.2 </bdi>Governance</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#governancestructuur"><bdi class="secno">2.2.1 </bdi>Governancestructuur</a></li><li class="tocline"><a class="tocxref" href="#besluitvorming"><bdi class="secno">2.2.2 </bdi>Besluitvorming</a></li><li class="tocline"><a class="tocxref" href="#deelname"><bdi class="secno">2.2.3 </bdi>Deelname</a></li></ol></li><li class="tocline"><a class="tocxref" href="#financering"><bdi class="secno">2.3 </bdi>Financering</a></li></ol></li><li class="tocline"><a class="tocxref" href="#tactiek"><bdi class="secno">3. </bdi>Tactiek</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#community"><bdi class="secno">3.1 </bdi>Community</a></li><li class="tocline"><a class="tocxref" href="#architectuur"><bdi class="secno">3.2 </bdi>Architectuur</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#internationale-europese-en-nationale-standaardisatiegemeenschap"><bdi class="secno">3.2.1 </bdi>Internationale, Europese en nationale standaardisatiegemeenschap</a></li><li class="tocline"><a class="tocxref" href="#samenwerking-met-andere-beheerorganisaties"><bdi class="secno">3.2.2 </bdi>Samenwerking met andere beheerorganisaties</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#kennisplatform-api-s"><bdi class="secno">3.2.2.1 </bdi>Kennisplatform API's</a></li><li class="tocline"><a class="tocxref" href="#nederlandse-overheid-referentie-architectuur-nora"><bdi class="secno">3.2.2.2 </bdi>Nederlandse Overheid Referentie Architectuur (NORA)</a></li><li class="tocline"><a class="tocxref" href="#overige-belangrijke-vermeldingen-zoals-overlap-met-andere-standaarden"><bdi class="secno">3.2.2.3 </bdi>Overige belangrijke vermeldingen (zoals overlap met andere standaarden)</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#rechtenbeleid"><bdi class="secno">3.3 </bdi>Rechtenbeleid</a></li><li class="tocline"><a class="tocxref" href="#kwaliteitsbeleid-en-benchmarking"><bdi class="secno">3.4 </bdi>Kwaliteitsbeleid en benchmarking</a></li><li class="tocline"><a class="tocxref" href="#adoptie-en-erkenning"><bdi class="secno">3.5 </bdi>Adoptie en erkenning</a></li></ol></li><li class="tocline"><a class="tocxref" href="#operationeel"><bdi class="secno">4. </bdi>Operationeel</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#initiatie"><bdi class="secno">4.1 </bdi>Initiatie</a></li><li class="tocline"><a class="tocxref" href="#wensen-en-eisen"><bdi class="secno">4.2 </bdi>Wensen en Eisen</a></li><li class="tocline"><a class="tocxref" href="#uitvoering-en-ontwikkeling-wijzigingsproces"><bdi class="secno">4.3 </bdi>Uitvoering en ontwikkeling (Wijzigingsproces)</a></li><li class="tocline"><a class="tocxref" href="#status-van-de-standaard"><bdi class="secno">4.4 </bdi>Status van de standaard</a></li><li class="tocline"><a class="tocxref" href="#documentatie"><bdi class="secno">4.5 </bdi>Documentatie</a></li></ol></li><li class="tocline"><a class="tocxref" href="#implementatieondersteuning"><bdi class="secno">5. </bdi>Implementatieondersteuning</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#opleiding-en-advies"><bdi class="secno">5.1 </bdi>Opleiding en advies</a></li><li class="tocline"><a class="tocxref" href="#helpdesk"><bdi class="secno">5.2 </bdi>Helpdesk</a></li><li class="tocline"><a class="tocxref" href="#validatie-certificatie"><bdi class="secno">5.3 </bdi>Validatie &amp; Certificatie</a></li></ol></li><li class="tocline"><a class="tocxref" href="#communicatie"><bdi class="secno">6. </bdi>Communicatie</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#promotie"><bdi class="secno">6.1 </bdi>Promotie</a></li><li class="tocline"><a class="tocxref" href="#publicatie"><bdi class="secno">6.2 </bdi>Publicatie</a></li><li class="tocline"><a class="tocxref" href="#klachtenafhandeling"><bdi class="secno">6.3 </bdi>Klachtenafhandeling</a></li></ol></li></ol></nav>
+  <section id="sotd" class="introductory"><h2 id="status-van-dit-document">Status van dit document<a class="self-link" href="#sotd" aria-label="Permalink for Section"></a></h2>Dit is de definitieve versie van de  standaard. Wijzigingen naar aanleiding van consultaties zijn doorgevoerd.<p>Het OBDO heeft op advies van het Forum Standaardisatie deze versie vastgesteld.</p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Samenvatting</a></li><li class="tocline"><a class="tocxref" href="#sotd">Status van dit document</a></li><li class="tocline"><a class="tocxref" href="#inleiding"><bdi class="secno">1. </bdi>Inleiding</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#leeswijzer"><bdi class="secno">1.1 </bdi>Leeswijzer</a></li><li class="tocline"><a class="tocxref" href="#de-nl-gov-assurance-profile-for-oauth-2-0-standaard-oauth-nl"><bdi class="secno">1.2 </bdi>De NL GOV Assurance profile for OAuth 2.0 standaard (OAuth-NL)</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#nut"><bdi class="secno">1.2.1 </bdi>Nut</a></li><li class="tocline"><a class="tocxref" href="#werking"><bdi class="secno">1.2.2 </bdi>Werking</a></li><li class="tocline"><a class="tocxref" href="#status"><bdi class="secno">1.2.3 </bdi>Status</a></li></ol></li><li class="tocline"><a class="tocxref" href="#bomos"><bdi class="secno">1.3 </bdi>Bomos</a></li></ol></li><li class="tocline"><a class="tocxref" href="#strategie"><bdi class="secno">2. </bdi>Strategie</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#visie"><bdi class="secno">2.1 </bdi>Visie</a></li><li class="tocline"><a class="tocxref" href="#governance"><bdi class="secno">2.2 </bdi>Governance</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#governancestructuur"><bdi class="secno">2.2.1 </bdi>Governancestructuur</a></li><li class="tocline"><a class="tocxref" href="#besluitvorming"><bdi class="secno">2.2.2 </bdi>Besluitvorming</a></li><li class="tocline"><a class="tocxref" href="#deelname"><bdi class="secno">2.2.3 </bdi>Deelname</a></li></ol></li><li class="tocline"><a class="tocxref" href="#financering"><bdi class="secno">2.3 </bdi>Financering</a></li></ol></li><li class="tocline"><a class="tocxref" href="#tactiek"><bdi class="secno">3. </bdi>Tactiek</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#community"><bdi class="secno">3.1 </bdi>Community</a></li><li class="tocline"><a class="tocxref" href="#architectuur"><bdi class="secno">3.2 </bdi>Architectuur</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#internationale-europese-en-nationale-standaardisatiegemeenschap"><bdi class="secno">3.2.1 </bdi>Internationale, Europese en nationale standaardisatiegemeenschap</a></li><li class="tocline"><a class="tocxref" href="#samenwerking-met-andere-beheerorganisaties"><bdi class="secno">3.2.2 </bdi>Samenwerking met andere beheerorganisaties</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#kennisplatform-api-s"><bdi class="secno">3.2.2.1 </bdi>Kennisplatform API's</a></li><li class="tocline"><a class="tocxref" href="#nederlandse-overheid-referentie-architectuur-nora"><bdi class="secno">3.2.2.2 </bdi>Nederlandse Overheid Referentie Architectuur (NORA)</a></li><li class="tocline"><a class="tocxref" href="#overige-belangrijke-vermeldingen-zoals-overlap-met-andere-standaarden"><bdi class="secno">3.2.2.3 </bdi>Overige belangrijke vermeldingen (zoals overlap met andere standaarden)</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#rechtenbeleid"><bdi class="secno">3.3 </bdi>Rechtenbeleid</a></li><li class="tocline"><a class="tocxref" href="#kwaliteitsbeleid-en-benchmarking"><bdi class="secno">3.4 </bdi>Kwaliteitsbeleid en benchmarking</a></li><li class="tocline"><a class="tocxref" href="#adoptie-en-erkenning"><bdi class="secno">3.5 </bdi>Adoptie en erkenning</a></li></ol></li><li class="tocline"><a class="tocxref" href="#operationeel"><bdi class="secno">4. </bdi>Operationeel</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#initiatie"><bdi class="secno">4.1 </bdi>Initiatie</a></li><li class="tocline"><a class="tocxref" href="#wensen-en-eisen"><bdi class="secno">4.2 </bdi>Wensen en Eisen</a></li><li class="tocline"><a class="tocxref" href="#uitvoering-en-ontwikkeling-wijzigingsproces"><bdi class="secno">4.3 </bdi>Uitvoering en ontwikkeling (Wijzigingsproces)</a></li><li class="tocline"><a class="tocxref" href="#status-van-de-standaard"><bdi class="secno">4.4 </bdi>Status van de standaard</a></li><li class="tocline"><a class="tocxref" href="#documentatie"><bdi class="secno">4.5 </bdi>Documentatie</a></li></ol></li><li class="tocline"><a class="tocxref" href="#implementatieondersteuning"><bdi class="secno">5. </bdi>Implementatieondersteuning</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#opleiding-en-advies"><bdi class="secno">5.1 </bdi>Opleiding en advies</a></li><li class="tocline"><a class="tocxref" href="#helpdesk"><bdi class="secno">5.2 </bdi>Helpdesk</a></li><li class="tocline"><a class="tocxref" href="#validatie-certificatie"><bdi class="secno">5.3 </bdi>Validatie &amp; Certificatie</a></li></ol></li><li class="tocline"><a class="tocxref" href="#communicatie"><bdi class="secno">6. </bdi>Communicatie</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#promotie"><bdi class="secno">6.1 </bdi>Promotie</a></li><li class="tocline"><a class="tocxref" href="#publicatie"><bdi class="secno">6.2 </bdi>Publicatie</a></li><li class="tocline"><a class="tocxref" href="#klachtenafhandeling"><bdi class="secno">6.3 </bdi>Klachtenafhandeling</a></li></ol></li></ol></nav>
   
   
   
