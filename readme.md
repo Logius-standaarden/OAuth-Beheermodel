@@ -22,4 +22,4 @@ https://logius-standaarden.github.io/OAuth-Beheermodel/
 
 ## De OAuth-NL vergaderstukken:
 
-https://github.com/Logius-standaarden/OAuth-NL_Vergaderstukken
+https://github.com/Logius-standaarden/Overleg/tree/main/OAuth

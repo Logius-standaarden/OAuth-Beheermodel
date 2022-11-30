@@ -57,17 +57,17 @@ Alle documenten m.b.t. de standaard en het beheer van de standaard worden openba
 - De voorlopige specificaties van de nieuwe versie van de standaard.
 
 Versie 1.0 van de OAuth-NL is gepubliceerd op:<br>
-[https://publicatie.centrumvoorstandaarden.nl/api/oauth/v1.0](https://publicatie.centrumvoorstandaarden.nl/api/oauth/v1.0)
+https://publicatie.centrumvoorstandaarden.nl/api/oauth/v1.0
 
 De laatste versie van de OAuth-NL is gepubliceerd op:<br>
-[https://publicatie.centrumvoorstandaarden.nl/api/oauth/](https://publicatie.centrumvoorstandaarden.nl/api/oauth/)
+https://publicatie.centrumvoorstandaarden.nl/api/oauth/
 
 De laatste concept versie van de standard is gepubliceerd op:<br>
-[https://logius-standaarden.github.io/OAuth-NL-profiel/](https://logius-standaarden.github.io/OAuth-NL-profiel/)
+https://logius-standaarden.github.io/OAuth-NL-profiel/
 
 Het beheermodel is gepubliceerd op:<br>
 [Logius-standaarden/OAuth-Beheermodel (github.com)](https://github.com/Logius-standaarden/OAuth-Beheermodel)
 
 De vergaderstukken zijn gepubliceerd op:<br>
-[Logius-standaarden/OAuth-NL_Vergaderstukken (github.com)](https://github.com/Logius-standaarden/OAuth-NL_Vergaderstukken)
+[Logius-standaarden/Overleg/OAuth (github.com)](https://github.com/Logius-standaarden/Overleg/tree/main/OAuth)
 
