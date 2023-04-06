@@ -24,7 +24,8 @@ var respecConfig = {
   nl_markdownTableClass: "dkkvs",
   pubDomain: "api",
   publishDate: "2021-12-03",
-  publishVersion: "1.0",
+  publishVersion: "v1.1",
+  previousPublishVersion: "v1.0",
   shortName: "oauth-beheer",
   specStatus: "DEF",
   specType: "ST"
