@@ -12,7 +12,7 @@ RFC&#39;s kunnen binnen komen via verschillende kanalen:
 1. Rechtstreeks bij Logius, tijdens overleggen, via de website of mail
 2. Bij de werkgroepen, tijdens overleggen, via de website of mail
 
-RFC&#39;s worden als issue&#39;s geregistreerd in de repository van de OAuth-NL standaard op Github. [https://github.com/Geonovum/KP-APIs/issues](https://github.com/Geonovum/KP-APIs/issues) of direct in de repository van de OAuth-NL standaard op Github [https://github.com/Logius-standaarden/OAuth-NL-profiel/issues](https://github.com/Logius-standaarden/OAuth-NL-profiel/issues)
+RFC&#39;s worden als issue&#39;s geregistreerd in de repository van het kennisplatform API's op Github. [https://github.com/Geonovum/KP-APIs/issues](https://github.com/Geonovum/KP-APIs/issues) of direct in de repository van de OAuth-NL standaard op Github [https://github.com/Logius-standaarden/OAuth-NL-profiel/issues](https://github.com/Logius-standaarden/OAuth-NL-profiel/issues)
 
 ![OAuth-NL RFC Procesmodel](media/OAuth-NL_Governance-RFC_Process.svg "OAuth-NL RFC Procesmodel")
 > Figuur 5. OAuth-NL RFC Procesmodel
